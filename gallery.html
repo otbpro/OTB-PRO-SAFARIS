@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="OTB PRO SAFARIS photo gallery — stunning images of Uganda's mountain gorillas, Nile, wildlife safaris, cultural encounters and landscapes." />
+  <title>Gallery | OTB PRO SAFARIS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Lato:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="site-header" role="banner">
+    <nav class="nav-wrapper" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="OTB PRO SAFARIS – Home">
+        <div class="logo-icon" aria-hidden="true">🦁</div>
+        <div class="logo-text">
+          <strong>OTB PRO SAFARIS</strong>
+          <span>Uganda Safaris &amp; Tours</span>
+        </div>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html"   data-page="index.html">Home</a></li>
+        <li><a href="tours.html"   data-page="tours.html">Tours</a></li>
+        <li><a href="gallery.html" data-page="gallery.html">Gallery</a></li>
+        <li><a href="about.html"   data-page="about.html">About Us</a></li>
+        <li><a href="contact.html" data-page="contact.html" class="btn btn-primary">Book Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== PAGE HERO ========== -->
+    <section class="page-hero" aria-label="Gallery page hero">
+      <div class="hero-bg" style="background:linear-gradient(160deg,#1a4a1a 0%,#2e8b57 50%,#c8960c 100%);" role="img" aria-label="Collage of Uganda safari moments"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="page-hero-content">
+        <div class="overline">📸 Visual Stories</div>
+        <h1>Uganda Through Our Lens</h1>
+        <p>Moments of wonder captured across Uganda's national parks, rivers, forests, and communities.</p>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section class="section-pad" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Photo Gallery</span>
+          <h2 id="gallery-heading">Wildlife, Landscapes &amp; Culture</h2>
+          <p>Each image tells the story of an authentic Ugandan experience. Click any photo to explore it full-screen.</p>
+        </div>
+
+        <!-- Filter -->
+        <div class="gallery-filters" role="navigation" aria-label="Gallery category filter">
+          <div class="filter-bar" role="group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="gorilla">Gorillas</button>
+            <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+            <button class="filter-btn" data-filter="birds">Birds</button>
+            <button class="filter-btn" data-filter="landscape">Landscapes</button>
+            <button class="filter-btn" data-filter="culture">Culture</button>
+          </div>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="gallery-grid" role="list" aria-label="Photo gallery">
+
+          <div class="gallery-item" data-category="gorilla" data-caption="Mountain gorilla silverback — Bwindi Impenetrable Forest, Uganda" role="listitem">
+            <div class="img-placeholder gorilla" style="height:260px;" role="img" aria-label="Silverback gorilla in Bwindi Forest">
+              <div class="placeholder-icon">🦍</div>
+              <span>Silverback – Bwindi</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Silverback Gorilla, Bwindi</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wildlife" data-caption="African elephants crossing the Kazinga Channel — Queen Elizabeth NP" role="listitem">
+            <div class="img-placeholder wildlife" style="height:200px;" role="img" aria-label="Elephants at Kazinga Channel">
+              <div class="placeholder-icon">🐘</div>
+              <span>Kazinga Elephants</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Elephants, Kazinga Channel</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="landscape" data-caption="Murchison Falls at sunrise — the world's most powerful waterfall" role="listitem">
+            <div class="img-placeholder nile" style="height:300px;" role="img" aria-label="Murchison Falls at sunrise">
+              <div class="placeholder-icon">💧</div>
+              <span>Murchison Falls at Sunrise</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Murchison Falls, Dawn</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="gorilla" data-caption="Baby gorilla playing in the undergrowth — Mgahinga Gorilla NP" role="listitem">
+            <div class="img-placeholder gorilla" style="height:200px;" role="img" aria-label="Baby gorilla in Mgahinga">
+              <div class="placeholder-icon">🦍</div>
+              <span>Baby Gorilla – Mgahinga</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Baby Gorilla, Mgahinga</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="birds" data-caption="Shoebill stork at dawn — Mabamba Swamp, Lake Victoria shore" role="listitem">
+            <div class="img-placeholder birding" style="height:260px;" role="img" aria-label="Shoebill stork at Mabamba Swamp">
+              <div class="placeholder-icon">🦅</div>
+              <span>Shoebill – Mabamba Swamp</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Shoebill Stork, Mabamba</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wildlife" data-caption="Tree-climbing lions of Ishasha — a rare and famous behaviour" role="listitem">
+            <div class="img-placeholder wildlife" style="height:200px;" role="img" aria-label="Tree-climbing lions in Ishasha sector">
+              <div class="placeholder-icon">🦁</div>
+              <span>Tree-Climbing Lions – Ishasha</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Tree Lions, Ishasha</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="landscape" data-caption="Lake Bunyonyi — the 'Place of Many Little Birds', south-west Uganda" role="listitem">
+            <div class="img-placeholder lake" style="height:300px;" role="img" aria-label="Aerial view of Lake Bunyonyi">
+              <div class="placeholder-icon">🌊</div>
+              <span>Lake Bunyonyi</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Lake Bunyonyi, SW Uganda</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wildlife" data-caption="Chimpanzee in the canopy — Kibale Forest National Park" role="listitem">
+            <div class="img-placeholder chimp" style="height:200px;" role="img" aria-label="Chimpanzee in Kibale Forest canopy">
+              <div class="placeholder-icon">🐒</div>
+              <span>Chimp – Kibale Forest</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Chimpanzee, Kibale Forest</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="culture" data-caption="Batwa Pygmy elder demonstrates fire-making — Bwindi community village" role="listitem">
+            <div class="img-placeholder culture" style="height:260px;" role="img" aria-label="Batwa elder making fire in Bwindi">
+              <div class="placeholder-icon">🔥</div>
+              <span>Batwa Fire-Making</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Batwa Fire Ceremony</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="birds" data-caption="African Fish Eagle calling from a fever tree — a symbol of East Africa" role="listitem">
+            <div class="img-placeholder birding" style="height:200px;" role="img" aria-label="African Fish Eagle calling from a tree">
+              <div class="placeholder-icon">🦅</div>
+              <span>African Fish Eagle</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>African Fish Eagle</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="landscape" data-caption="Queen Elizabeth National Park savanna at golden hour — an endless wilderness" role="listitem">
+            <div class="img-placeholder wildlife" style="height:200px;" role="img" aria-label="Queen Elizabeth NP savanna at sunset">
+              <div class="placeholder-icon">🌅</div>
+              <span>QE NP Golden Hour</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>QE NP, Sunset Savanna</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wildlife" data-caption="White rhino mother and calf — Ziwa Rhino Sanctuary, north Uganda" role="listitem">
+            <div class="img-placeholder rhino" style="height:260px;" role="img" aria-label="White rhino mother and calf at Ziwa">
+              <div class="placeholder-icon">🦏</div>
+              <span>Rhino Mother &amp; Calf – Ziwa</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>White Rhino, Ziwa Sanctuary</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="culture" data-caption="Traditional Bakiga dance performance at Buhoma village" role="listitem">
+            <div class="img-placeholder culture" style="height:200px;" role="img" aria-label="Bakiga traditional dance performance">
+              <div class="placeholder-icon">🥁</div>
+              <span>Bakiga Dance – Buhoma</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Bakiga Dance, Buhoma</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="landscape" data-caption="Source of the Nile at Jinja — where Lake Victoria flows into the mighty Nile" role="listitem">
+            <div class="img-placeholder nile" style="height:260px;" role="img" aria-label="Source of the Nile at Jinja">
+              <div class="placeholder-icon">🌊</div>
+              <span>Source of the Nile – Jinja</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Source of the Nile, Jinja</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="birds" data-caption="Grey Crowned Crane — Uganda's national bird, in Queen Elizabeth NP" role="listitem">
+            <div class="img-placeholder birding" style="height:200px;" role="img" aria-label="Grey Crowned Crane in Queen Elizabeth NP">
+              <div class="placeholder-icon">🦢</div>
+              <span>Grey Crowned Crane</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Grey Crowned Crane</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="gorilla" data-caption="A gorilla family group at rest in the dense Bwindi undergrowth" role="listitem">
+            <div class="img-placeholder gorilla" style="height:200px;" role="img" aria-label="Gorilla family resting in Bwindi">
+              <div class="placeholder-icon">🦍</div>
+              <span>Gorilla Family – Bwindi</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Gorilla Family, Bwindi</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wildlife" data-caption="Hippos yawning in the Kazinga Channel — harmless-looking but Africa's deadliest animal" role="listitem">
+            <div class="img-placeholder lake" style="height:300px;" role="img" aria-label="Hippos yawning in Kazinga Channel">
+              <div class="placeholder-icon">🦛</div>
+              <span>Hippos – Kazinga Channel</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Hippos, Kazinga Channel</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="landscape" data-caption="The Rwenzori Mountains — 'Mountains of the Moon', western Uganda" role="listitem">
+            <div class="img-placeholder gorilla" style="height:200px;" role="img" aria-label="Rwenzori Mountains at dawn">
+              <div class="placeholder-icon">⛰️</div>
+              <span>Rwenzori Mountains</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Rwenzori Mountains</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="culture" data-caption="A Ugandan market morning in Kabale — fresh produce, colour and community" role="listitem">
+            <div class="img-placeholder culture" style="height:200px;" role="img" aria-label="Kabale market morning scene">
+              <div class="placeholder-icon">🧺</div>
+              <span>Kabale Market Morning</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Kabale Market</p>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="wildlife" data-caption="Leopard resting in a sausage tree — Kidepo Valley National Park" role="listitem">
+            <div class="img-placeholder rhino" style="height:260px;" role="img" aria-label="Leopard in a sausage tree in Kidepo">
+              <div class="placeholder-icon">🐆</div>
+              <span>Leopard – Kidepo Valley</span>
+            </div>
+            <div class="gallery-overlay" aria-hidden="true">
+              <div class="zoom-icon">🔍</div>
+              <p>Leopard, Kidepo Valley NP</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-banner" aria-labelledby="cta-gallery-heading">
+      <div class="container">
+        <span class="tag">Live the Moment</span>
+        <h2 id="cta-gallery-heading">These Photos Could Be Yours</h2>
+        <p>Stop dreaming — start packing. Our expert guides will take you to all these incredible places and more.</p>
+        <div class="btn-group">
+          <a href="tours.html"   class="btn btn-primary">Explore Tours</a>
+          <a href="contact.html" class="btn btn-outline">Plan My Safari</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+      <button class="lightbox-nav prev" aria-label="Previous image">&#8249;</button>
+      <div class="lightbox-inner"></div>
+      <button class="lightbox-nav next" aria-label="Next image">&#8250;</button>
+      <p class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="display:inline-flex;">
+            <div class="logo-icon" aria-hidden="true" style="width:36px;height:36px;font-size:1rem;">🦁</div>
+            <div class="logo-text">
+              <strong style="font-size:1rem;">OTB PRO SAFARIS</strong>
+              <span>Uganda Safaris &amp; Tours</span>
+            </div>
+          </a>
+          <p>Uganda's trusted safari &amp; tours consultant since 2009.</p>
+          <nav class="footer-social" aria-label="Social media links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Twitter / X">𝕏</a>
+            <a href="#" aria-label="WhatsApp">💬</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tour Packages</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact &amp; Booking</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Tours</h4>
+          <ul>
+            <li><a href="tours.html#gorilla">Gorilla Trekking</a></li>
+            <li><a href="tours.html#wildlife">Wildlife Safaris</a></li>
+            <li><a href="tours.html#nile">Nile Adventures</a></li>
+            <li><a href="tours.html#chimp">Chimp Tracking</a></li>
+            <li><a href="tours.html#birding">Birding Safaris</a></li>
+            <li><a href="tours.html#culture">Cultural Tours</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact">
+            <li><span class="icon" aria-hidden="true">📍</span><span>Plot 14 Kampala Road, Kampala, Uganda</span></li>
+            <li><span class="icon" aria-hidden="true">📞</span><span>+256 700 123 456</span></li>
+            <li><span class="icon" aria-hidden="true">✉️</span><span>info@otbprosafaris.com</span></li>
+            <li><span class="icon" aria-hidden="true">🕐</span><span>Mon–Sat: 08:00 – 18:00 EAT</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 OTB PRO SAFARIS. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

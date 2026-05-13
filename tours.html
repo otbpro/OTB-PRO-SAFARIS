@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse OTB PRO SAFARIS tour packages — gorilla trekking, wildlife safaris, Nile adventures, chimp tracking, birding and cultural tours in Uganda." />
+  <title>Tour Packages | OTB PRO SAFARIS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Lato:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="site-header" role="banner">
+    <nav class="nav-wrapper" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="OTB PRO SAFARIS – Home">
+        <div class="logo-icon" aria-hidden="true">🦁</div>
+        <div class="logo-text">
+          <strong>OTB PRO SAFARIS</strong>
+          <span>Uganda Safaris &amp; Tours</span>
+        </div>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html"   data-page="index.html">Home</a></li>
+        <li><a href="tours.html"   data-page="tours.html">Tours</a></li>
+        <li><a href="gallery.html" data-page="gallery.html">Gallery</a></li>
+        <li><a href="about.html"   data-page="about.html">About Us</a></li>
+        <li><a href="contact.html" data-page="contact.html" class="btn btn-primary">Book Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== PAGE HERO ========== -->
+    <section class="page-hero" aria-label="Tours page hero">
+      <div class="hero-bg" style="background:linear-gradient(160deg,#0d3b1e 0%,#1a6b3c 50%,#2e8b57 100%);" role="img" aria-label="Uganda national park landscape"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="page-hero-content">
+        <div class="overline">🌍 Explore Uganda</div>
+        <h1>Our Safari Packages</h1>
+        <p>Every tour is crafted with deep local knowledge, conservation at its heart, and your ultimate satisfaction as the goal.</p>
+      </div>
+    </section>
+
+    <!-- ========== FILTER BAR ========== -->
+    <div class="tour-filters" role="navigation" aria-label="Tour category filter">
+      <div class="container">
+        <div class="filter-bar" role="group" aria-label="Filter tours by category">
+          <button class="filter-btn active" data-filter="all">All Tours</button>
+          <button class="filter-btn" data-filter="primates">Primates</button>
+          <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+          <button class="filter-btn" data-filter="adventure">Adventure</button>
+          <button class="filter-btn" data-filter="birding">Birding</button>
+          <button class="filter-btn" data-filter="culture">Culture</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== TOUR LISTINGS ========== -->
+    <section class="section-pad" aria-labelledby="packages-heading">
+      <div class="container">
+        <h2 id="packages-heading" class="sr-only">All Tour Packages</h2>
+
+        <!-- 1. Gorilla Trekking -->
+        <article id="gorilla" class="tour-detail-card" data-category="primates">
+          <div class="tour-detail-img">
+            <div class="img-placeholder gorilla" role="img" aria-label="Mountain gorilla silverback in Bwindi">
+              <div class="placeholder-icon">🦍</div>
+              <span>Bwindi Gorilla Family</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">Best Seller</span>
+            <h2>Bwindi Gorilla Trekking</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 3 Days</span>
+              <span class="chip">👥 Max 8 pax</span>
+              <span class="chip">🏔️ Bwindi Forest</span>
+              <span class="chip">💰 From $750/person</span>
+            </div>
+            <p class="description">Enter the ancient mists of Bwindi Impenetrable Forest — a UNESCO World Heritage Site — and spend a life-changing hour face-to-face with habituated mountain gorilla families. Only 1,063 mountain gorillas remain in the wild; this encounter is truly priceless.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>Uganda Wildlife Authority gorilla permit included</li>
+              <li><span class="tick">✔</span>Return transfers from Kampala or Kigali</li>
+              <li><span class="tick">✔</span>2 nights at Bwindi community lodge (en-suite)</li>
+              <li><span class="tick">✔</span>Expert certified ranger guide throughout</li>
+              <li><span class="tick">✔</span>Batwa cultural village visit on day 2</li>
+              <li><span class="tick">✔</span>All meals, park fees and bottled water included</li>
+            </ul>
+            <a href="contact.html?tour=gorilla" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- 2. Queen Elizabeth Safari -->
+        <article id="wildlife" class="tour-detail-card reverse" data-category="wildlife">
+          <div class="tour-detail-img">
+            <div class="img-placeholder wildlife" role="img" aria-label="Lion pride at Queen Elizabeth National Park">
+              <div class="placeholder-icon">🦁</div>
+              <span>Queen Elizabeth NP</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">4-Day Classic</span>
+            <h2>Queen Elizabeth Wildlife Safari</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 4 Days</span>
+              <span class="chip">👥 Max 10 pax</span>
+              <span class="chip">🦁 Queen Elizabeth NP</span>
+              <span class="chip">💰 From $620/person</span>
+            </div>
+            <p class="description">Queen Elizabeth National Park is Uganda's most biodiverse park, home to over 600 bird species and 95 mammal species, including the legendary tree-climbing lions of Ishasha. The Kazinga Channel boat cruise delivers close-up wildlife drama on the water.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>Two full-day game drives (morning &amp; evening)</li>
+              <li><span class="tick">✔</span>Kazinga Channel boat cruise (2 hours)</li>
+              <li><span class="tick">✔</span>Ishasha sector for tree-climbing lions</li>
+              <li><span class="tick">✔</span>3 nights at Mweya Safari Lodge</li>
+              <li><span class="tick">✔</span>Community walk &amp; Kyambura Gorge hike</li>
+              <li><span class="tick">✔</span>All park entrance fees and transport</li>
+            </ul>
+            <a href="contact.html?tour=wildlife" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- 3. Murchison Falls -->
+        <article id="nile" class="tour-detail-card" data-category="adventure">
+          <div class="tour-detail-img">
+            <div class="img-placeholder nile" role="img" aria-label="Murchison Falls on the Victoria Nile">
+              <div class="placeholder-icon">💧</div>
+              <span>Murchison Falls</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">5-Day Adventure</span>
+            <h2>Murchison Falls &amp; Nile Safari</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 5 Days</span>
+              <span class="chip">👥 Max 12 pax</span>
+              <span class="chip">🌊 Murchison Falls NP</span>
+              <span class="chip">💰 From $870/person</span>
+            </div>
+            <p class="description">Murchison Falls is where the mighty Nile squeezes through a 7-metre-wide gorge and explodes into a 45-metre drop — the most powerful waterfall on earth. Combined with dramatic savanna game drives and a Nile boat cruise, this is pure African adventure.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>Sunrise boat cruise to the base of Murchison Falls</li>
+              <li><span class="tick">✔</span>Top-of-the-falls hike with panoramic views</li>
+              <li><span class="tick">✔</span>North bank game drive: lions, giraffes, elephants</li>
+              <li><span class="tick">✔</span>Ziwa Rhino Sanctuary stop-over (en route)</li>
+              <li><span class="tick">✔</span>4 nights at Pakuba Safari Lodge</li>
+              <li><span class="tick">✔</span>Chimpanzee tracking option in Budongo Forest</li>
+            </ul>
+            <a href="contact.html?tour=nile" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- 4. Chimp Tracking -->
+        <article id="chimp" class="tour-detail-card reverse" data-category="primates">
+          <div class="tour-detail-img">
+            <div class="img-placeholder chimp" role="img" aria-label="Chimpanzee in Kibale Forest canopy">
+              <div class="placeholder-icon">🐒</div>
+              <span>Kibale Forest</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">Primate Special</span>
+            <h2>Kibale Chimpanzee Tracking</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 2 Days</span>
+              <span class="chip">👥 Max 8 pax</span>
+              <span class="chip">🌳 Kibale NP</span>
+              <span class="chip">💰 From $380/person</span>
+            </div>
+            <p class="description">Kibale Forest harbours the world's highest concentration of primate species — 13 in total. The star attraction is the chimpanzee, genetically our closest relative sharing 98.7% of our DNA. Track them through dense tropical forest with expert primatologist guides.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>Morning chimpanzee tracking permit (Kanyanchu)</li>
+              <li><span class="tick">✔</span>Bigodi Wetland Sanctuary guided walk</li>
+              <li><span class="tick">✔</span>Red-tailed, grey-cheeked &amp; L'Hoest's monkeys</li>
+              <li><span class="tick">✔</span>1 night at Kibale Forest Camp</li>
+              <li><span class="tick">✔</span>Crater lakes scenic drive (optional)</li>
+              <li><span class="tick">✔</span>All meals and transport from Fort Portal</li>
+            </ul>
+            <a href="contact.html?tour=chimp" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- 5. Birding -->
+        <article id="birding" class="tour-detail-card" data-category="birding">
+          <div class="tour-detail-img">
+            <div class="img-placeholder birding" role="img" aria-label="Shoebill stork in Mabamba Swamp at dawn">
+              <div class="placeholder-icon">🦅</div>
+              <span>Shoebill Stork – Mabamba</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">7-Day Bird Safari</span>
+            <h2>Uganda Big Birding Safari</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 7 Days</span>
+              <span class="chip">👥 Max 6 pax</span>
+              <span class="chip">🦜 Multiple Locations</span>
+              <span class="chip">💰 From $1,100/person</span>
+            </div>
+            <p class="description">With over 1,066 recorded bird species — including 24 Albertine Rift endemics — Uganda is one of Africa's premier birding destinations. This specialist tour targets the iconic Shoebill, African Green Broadbill, Shelley's Crimsonwing, and dozens of other rare finds.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>Mabamba Swamp dawn Shoebill boat safari</li>
+              <li><span class="tick">✔</span>Bwindi Impenetrable Forest endemic birding</li>
+              <li><span class="tick">✔</span>Murchison Falls open country &amp; waterbirds</li>
+              <li><span class="tick">✔</span>Entebbe Botanical Garden (African Fish Eagle)</li>
+              <li><span class="tick">✔</span>Specialist ornithologist guide throughout</li>
+              <li><span class="tick">✔</span>6 nights lodges, all meals, transport &amp; fees</li>
+            </ul>
+            <a href="contact.html?tour=birding" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- 6. White-water Rafting -->
+        <article id="rafting" class="tour-detail-card reverse" data-category="adventure">
+          <div class="tour-detail-img">
+            <div class="img-placeholder nile" role="img" aria-label="White-water rafting on the Nile at Jinja">
+              <div class="placeholder-icon">🚣</div>
+              <span>Nile White-Water Rafting</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">Adrenaline Rush</span>
+            <h2>Jinja Nile White-Water Rafting</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 1–2 Days</span>
+              <span class="chip">👥 Max 16 pax</span>
+              <span class="chip">🌊 Jinja, Source of the Nile</span>
+              <span class="chip">💰 From $160/person</span>
+            </div>
+            <p class="description">Jinja is the Nile's birthplace — and home to some of the world's finest Grade 5 white-water rapids. Paddle through roaring Class 4 and 5 rapids, plunge into the foaming Nile, and ride the Silverback, Bujagali Falls, and The Dead Dutchman — all with certified safety guides.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>Full-day rafting on Grade 3–5 Nile rapids</li>
+              <li><span class="tick">✔</span>Professional safety kayakers &amp; certified guides</li>
+              <li><span class="tick">✔</span>All safety gear, wetsuit &amp; helmet provided</li>
+              <li><span class="tick">✔</span>Source of the Nile boat excursion</li>
+              <li><span class="tick">✔</span>Bungee jumping &amp; quad biking add-ons available</li>
+              <li><span class="tick">✔</span>Lunch, transport from Kampala, photography package</li>
+            </ul>
+            <a href="contact.html?tour=rafting" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- 7. Rhino Tracking -->
+        <article id="rhino" class="tour-detail-card" data-category="wildlife">
+          <div class="tour-detail-img">
+            <div class="img-placeholder rhino" role="img" aria-label="White rhino at Ziwa Rhino Sanctuary">
+              <div class="placeholder-icon">🦏</div>
+              <span>Ziwa Rhino Sanctuary</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">Conservation Experience</span>
+            <h2>Ziwa Rhino Tracking &amp; Shoebill</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 2 Days</span>
+              <span class="chip">👥 Max 10 pax</span>
+              <span class="chip">🦏 Ziwa Sanctuary</span>
+              <span class="chip">💰 From $280/person</span>
+            </div>
+            <p class="description">Uganda's only wild rhinos live at Ziwa Rhino Sanctuary, where rangers have successfully bred the population to over 30 individuals. Walk on foot to within metres of southern white rhinos — and add a Shoebill stalk on Lake Dweru for an unforgettable wildlife double.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>On-foot white rhino tracking with armed ranger</li>
+              <li><span class="tick">✔</span>Shoebill stork boat excursion at Lake Dweru</li>
+              <li><span class="tick">✔</span>Naturalist education talk on rhino conservation</li>
+              <li><span class="tick">✔</span>1 night at Amuka Safari Lodge</li>
+              <li><span class="tick">✔</span>All meals, park fees and transport from Kampala</li>
+              <li><span class="tick">✔</span>Optional Budongo Forest chimp viewing</li>
+            </ul>
+            <a href="contact.html?tour=rhino" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- 8. Cultural Tour -->
+        <article id="culture" class="tour-detail-card reverse" data-category="culture">
+          <div class="tour-detail-img">
+            <div class="img-placeholder culture" role="img" aria-label="Batwa community cultural performance">
+              <div class="placeholder-icon">🥁</div>
+              <span>Batwa Cultural Trail</span>
+            </div>
+          </div>
+          <div class="tour-detail-body">
+            <span class="tag">Cultural Immersion</span>
+            <h2>Batwa &amp; Bakiga Cultural Trail</h2>
+            <div class="tour-info-chips">
+              <span class="chip">📅 3 Days</span>
+              <span class="chip">👥 Max 15 pax</span>
+              <span class="chip">🥁 Bwindi Region</span>
+              <span class="chip">💰 From $290/person</span>
+            </div>
+            <p class="description">The Batwa — Africa's oldest indigenous forest people — share their ancient woodland knowledge, fire-making skills, herbal medicine and song in an intimate and respectful encounter. The Bakiga highlanders welcome you to their hillside homes for homestead cooking and traditional dance.</p>
+            <ul class="tour-highlights" aria-label="Tour highlights">
+              <li><span class="tick">✔</span>Full Batwa Pygmy Experience with community guides</li>
+              <li><span class="tick">✔</span>Bakiga traditional homestead &amp; cooking session</li>
+              <li><span class="tick">✔</span>Buhoma village walk &amp; craft market</li>
+              <li><span class="tick">✔</span>Lake Bunyonyi sunset canoe paddle</li>
+              <li><span class="tick">✔</span>2 nights at community-owned guesthouse</li>
+              <li><span class="tick">✔</span>All meals, transport and cultural fees included</li>
+            </ul>
+            <a href="contact.html?tour=culture" class="btn btn-primary">Book This Tour</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner" aria-labelledby="cta-tours-heading">
+      <div class="container">
+        <span class="tag">Custom Safari</span>
+        <h2 id="cta-tours-heading">Can't Find Your Perfect Package?</h2>
+        <p>We specialise in bespoke itineraries. Tell us your dream destinations, travel dates and budget — we'll build the perfect Ugandan adventure just for you.</p>
+        <div class="btn-group">
+          <a href="contact.html" class="btn btn-primary">Get a Custom Quote</a>
+          <a href="about.html"   class="btn btn-outline">About Our Team</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="display:inline-flex;">
+            <div class="logo-icon" aria-hidden="true" style="width:36px;height:36px;font-size:1rem;">🦁</div>
+            <div class="logo-text">
+              <strong style="font-size:1rem;">OTB PRO SAFARIS</strong>
+              <span>Uganda Safaris &amp; Tours</span>
+            </div>
+          </a>
+          <p>Uganda's trusted safari &amp; tours consultant since 2009. Responsible, authentic and unforgettable East African adventures.</p>
+          <nav class="footer-social" aria-label="Social media links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Twitter / X">𝕏</a>
+            <a href="#" aria-label="WhatsApp">💬</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tour Packages</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact &amp; Booking</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Tours</h4>
+          <ul>
+            <li><a href="#gorilla">Gorilla Trekking</a></li>
+            <li><a href="#wildlife">Wildlife Safaris</a></li>
+            <li><a href="#nile">Nile Adventures</a></li>
+            <li><a href="#chimp">Chimp Tracking</a></li>
+            <li><a href="#birding">Birding Safaris</a></li>
+            <li><a href="#culture">Cultural Tours</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact">
+            <li><span class="icon" aria-hidden="true">📍</span><span>Plot 14 Kampala Road, Kampala, Uganda</span></li>
+            <li><span class="icon" aria-hidden="true">📞</span><span>+256 700 123 456</span></li>
+            <li><span class="icon" aria-hidden="true">✉️</span><span>info@otbprosafaris.com</span></li>
+            <li><span class="icon" aria-hidden="true">🕐</span><span>Mon–Sat: 08:00 – 18:00 EAT</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 OTB PRO SAFARIS. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
